@@ -6,4 +6,4 @@ fi
 
 php artisan migrate
 php artisan db:seed --force
-php -S web-academico:8080 -t public
+php -S 0.0.0.0:8080 -t public
